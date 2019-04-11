@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameArea : MonoBehaviour
+public class DefenderSpawner : MonoBehaviour
 {
     [SerializeField] GameObject defender;
 
