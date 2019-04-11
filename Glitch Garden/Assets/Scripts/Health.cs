@@ -6,21 +6,21 @@ public class Health : MonoBehaviour
 {
     [SerializeField] float health = 100f;
     [SerializeField] GameObject deathFX;
-    [SerializeField] float deathFXDuration = 5f;
 
     public void DealDamage(float amount)
     {
         health -= amount;
         if (health <= 0)
         {
-            Die();
+            TriggerDeathEffect();
+            Destroy(gameObject);
         }
     }
 
-    void Die()
+    void TriggerDeathEffect()
     {
-        Destroy(gameObject);
-        Instantiate(deathFX, transform.position, Quaternion.identity);
-        Destroy(deathFX, 5f);
+        if (!deathFX) { return; }
+        GameObject deathFXObj = Instantiate(deathFX, transform.position, Quaternion.identity);
+        Destroy(deathFXObj, 1f);
     }
 }
