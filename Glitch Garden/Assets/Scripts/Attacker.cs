@@ -12,19 +12,6 @@ public class Attacker : MonoBehaviour
         transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Projectile")) {
-            // Debug.Log("Trigger");
-            Health health = GetComponent<Health>();
-            if (health) {
-                health.DealDamage(other.GetComponent<Projectile>().GetDamage());
-            }
-
-            Destroy(other.gameObject);
-        }
-    }
-
     public void SetMovementSpeed(float speed)
     {
         currentSpeed = speed;

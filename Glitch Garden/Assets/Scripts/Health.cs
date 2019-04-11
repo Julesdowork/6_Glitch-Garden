@@ -4,20 +4,14 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int startingHealth = 100;
-    [SerializeField] int currentHealth;
+    [SerializeField] float health = 100f;
     [SerializeField] GameObject deathFX;
     [SerializeField] float deathFXDuration = 5f;
 
-    void Start()
+    public void DealDamage(float amount)
     {
-        currentHealth = startingHealth;
-    }
-
-    public void DealDamage(int amount)
-    {
-        currentHealth -= amount;
-        if (currentHealth <= 0)
+        health -= amount;
+        if (health <= 0)
         {
             Die();
         }

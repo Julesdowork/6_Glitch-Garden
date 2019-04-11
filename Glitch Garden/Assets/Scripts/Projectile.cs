@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
-    [SerializeField] int damage = 100;
+    [SerializeField] float damage = 100f;
 
     // Update is called once per frame
     void Update()
@@ -13,5 +13,10 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector2.right * speed * Time.deltaTime, Space.World);
     }
 
-    public int GetDamage() { return damage; }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        var health = other.GetComponent<Health>();
+        health.DealDamage(damage);
+        Destroy(gameObject);
+    }
 }
