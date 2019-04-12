@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 100
+  star: {fileID: 181165255769432208, guid: 742bee55d778eea489a199051f7d6e91, type: 3}
 --- !u!1 &4362803584741098737
 GameObject:
   m_ObjectHideFlags: 0
