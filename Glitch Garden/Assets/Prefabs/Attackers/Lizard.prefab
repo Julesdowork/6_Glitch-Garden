@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 4260561313523370678}
   - component: {fileID: 3201629897769027424}
   - component: {fileID: 6380178576347333585}
+  - component: {fileID: 1996920965069845080}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -207,3 +208,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   deathFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+--- !u!114 &1996920965069845080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160904803542889456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb9039085657f540bbc6c3fe707a016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
