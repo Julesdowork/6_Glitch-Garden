@@ -19,14 +19,9 @@ public class AttackerSpawner : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void SpawnAttacker()
     {
-        Instantiate(attackerPf, transform.position, Quaternion.identity);
+        Attacker newAttacker = Instantiate(attackerPf, transform.position, Quaternion.identity);
+        newAttacker.transform.parent = transform;
     }
 }
