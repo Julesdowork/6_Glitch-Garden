@@ -1,31 +1,27 @@
 fileFormatVersion: 2
-guid: a49d18e071f4d634497a852f0e9f26ef
+guid: 9c43663ea3840da459cd8459fb53b621
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Fox Walking_0
-    21300002: Fox Walking_1
-    21300004: Fox Walking_2
-    21300006: Fox Walking_3
-    21300008: Fox Walking_4
-    21300010: Fox Walking_5
-    21300012: Fox Walking_6
-    21300014: Fox Walking_7
-    21300016: Fox Walking_8
-    21300018: Fox Walking_9
-    21300020: Fox Walking_10
-    21300022: Fox Walking_11
-    21300024: Fox Walking_12
-    21300026: Fox Walking_13
-    21300028: Fox Walking_14
-    21300030: Fox Walking_15
-    21300032: Fox Walking_16
-    21300034: Fox Walking_17
-    21300036: Fox Walking_18
-    21300038: Fox Walking_19
-    21300040: Fox Walking_20
-    21300042: Fox Walking_21
-    21300044: Fox Walking_22
-    21300046: Fox Walking_23
+    21300000: Fox Eating_0
+    21300002: Fox Eating_1
+    21300004: Fox Eating_2
+    21300006: Fox Eating_3
+    21300008: Fox Eating_4
+    21300010: Fox Eating_5
+    21300012: Fox Eating_6
+    21300014: Fox Eating_7
+    21300016: Fox Eating_8
+    21300018: Fox Eating_9
+    21300020: Fox Eating_10
+    21300022: Fox Eating_11
+    21300024: Fox Eating_12
+    21300026: Fox Eating_13
+    21300028: Fox Eating_14
+    21300030: Fox Eating_15
+    21300032: Fox Eating_16
+    21300034: Fox Eating_17
+    21300036: Fox Eating_18
+    21300038: Fox Eating_19
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -130,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox Walking_0
+      name: Fox Eating_0
       rect:
         serializedVersion: 2
         x: 0
@@ -144,13 +140,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31628bb7f1177ee488dc6457dc3a3c94
+      spriteID: 8007a8b2cef84ba47b87ce4900bd16c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_1
+      name: Fox Eating_1
       rect:
         serializedVersion: 2
         x: 153
@@ -164,13 +160,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33882d52aaf3e1d48a0aabe02b6de560
+      spriteID: 190333b4945c9704fb1861bba2729411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_2
+      name: Fox Eating_2
       rect:
         serializedVersion: 2
         x: 306
@@ -184,13 +180,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c4154ffd93a90b4caec0869532e527d
+      spriteID: 479fd64d90efe89478a15ef0cdafa2b2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_3
+      name: Fox Eating_3
       rect:
         serializedVersion: 2
         x: 459
@@ -204,13 +200,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12eaee94240a46c42a72a7ec83c58e2c
+      spriteID: b46fe1bef4072d44d863897101bddc39
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_4
+      name: Fox Eating_4
       rect:
         serializedVersion: 2
         x: 612
@@ -224,33 +220,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80d13c7a3ef58ad488326cfe5cb480cd
+      spriteID: 00820e46caeeb0a4abc44baa18760b96
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_5
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 417
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9692362fcc8883945ac339e21ffa53e7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_6
+      name: Fox Eating_5
       rect:
         serializedVersion: 2
         x: 0
@@ -264,13 +240,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b458c5cdf528f914097559e60afca619
+      spriteID: fa8edc9f6dfdd4f40833a976e3edd27d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_7
+      name: Fox Eating_6
       rect:
         serializedVersion: 2
         x: 153
@@ -284,13 +260,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2c969b2bd731e847bda58ffd914d174
+      spriteID: b6c530816560e5748b8086c5faf8ee51
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_8
+      name: Fox Eating_7
       rect:
         serializedVersion: 2
         x: 306
@@ -304,13 +280,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff5c492bd21e2446b544cbaed94fc0c
+      spriteID: b1ee7af5b6ffadc4bb0b31521c34ed4f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_9
+      name: Fox Eating_8
       rect:
         serializedVersion: 2
         x: 459
@@ -324,13 +300,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0fa67f32169d214a964773eb88e2b4b
+      spriteID: 9460d0679c08dd04fbcea38551f14033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_10
+      name: Fox Eating_9
       rect:
         serializedVersion: 2
         x: 612
@@ -344,33 +320,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1bf2441201ce04d8fc2b1ea42cc859
+      spriteID: b59543ce4dd088b49920ead4b71a27bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_11
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 278
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fdc4d7d3a2b12747bfd5ee25eb75844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_12
+      name: Fox Eating_10
       rect:
         serializedVersion: 2
         x: 0
@@ -384,13 +340,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e75e5f1d74fa5c478f82af9caa49a8d
+      spriteID: 9ffebb29b7348e94080adee4b4a62972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_13
+      name: Fox Eating_11
       rect:
         serializedVersion: 2
         x: 153
@@ -404,13 +360,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 280c093322199b443b387d72a795f1f8
+      spriteID: 03543e9f0883e1c48892895a0f700e29
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_14
+      name: Fox Eating_12
       rect:
         serializedVersion: 2
         x: 306
@@ -424,13 +380,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61acd3966ad746d4a90446749f37c0f5
+      spriteID: e897a1d452cb95b4997cb4f47ce305f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_15
+      name: Fox Eating_13
       rect:
         serializedVersion: 2
         x: 459
@@ -444,13 +400,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f242e58f34d01f04c8eccd61387f11f4
+      spriteID: f53c79c4d0da7d24abd7acc96d645672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_16
+      name: Fox Eating_14
       rect:
         serializedVersion: 2
         x: 612
@@ -464,33 +420,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a87d63a4bbe4542917bce6d21df525
+      spriteID: f7c3b6b90a690a44bb59792525beb492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_17
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 139
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2e4d091c1ad15748adcad0b62ac1c15
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_18
+      name: Fox Eating_15
       rect:
         serializedVersion: 2
         x: 0
@@ -504,13 +440,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 170f07433777db042870d0dc0a897213
+      spriteID: edea3bcd85c1d16449d12083d085e930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_19
+      name: Fox Eating_16
       rect:
         serializedVersion: 2
         x: 153
@@ -524,13 +460,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afb0518781ad3f547acb3246feeacbda
+      spriteID: 5c36876e4be4b6a4299c6b1956dc296f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_20
+      name: Fox Eating_17
       rect:
         serializedVersion: 2
         x: 306
@@ -544,13 +480,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86d4ed753f0bb0948a4dad84b450bd9a
+      spriteID: 429232f71d264c945877962788b60515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_21
+      name: Fox Eating_18
       rect:
         serializedVersion: 2
         x: 459
@@ -564,13 +500,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36d1126cb8a3e1d4a893f6227fb4c7f5
+      spriteID: fff1c23be9b4e124b9aef3518223406a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox Walking_22
+      name: Fox Eating_19
       rect:
         serializedVersion: 2
         x: 612
@@ -584,27 +520,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5a92ce16c526e418286629801ced7c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox Walking_23
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 0
-        width: 153
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6d9731eefa84ac409ed29dd8f4dc3ed
+      spriteID: 47c16ddb7e68ddd4099fb34b2c7667be
       vertices: []
       indices: 
       edges: []
@@ -612,7 +528,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: acf9db6793303f040b984a7feade252b
+    spriteID: 572cdab47a022554f9dfdeb8ed86252b
     vertices: []
     indices: 
     edges: []
