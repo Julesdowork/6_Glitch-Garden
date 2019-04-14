@@ -40,6 +40,11 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("Start");
     }
 
+    public void LoadOptionsScreen()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
     public void LoadLoseScreen()
     {
         SceneManager.LoadScene("Lose");
