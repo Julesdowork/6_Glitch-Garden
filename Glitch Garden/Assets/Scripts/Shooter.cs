@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
+
     [SerializeField] GameObject projectile;
     [SerializeField] GameObject gun;
+    GameObject projectileParent;
     AttackerSpawner myLaneSpawner;
-
     Animator animator;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         SetLaneSpawner();
+        CreateProjectileParent();
     }
 
     void Update()
@@ -27,10 +30,18 @@ public class Shooter : MonoBehaviour
             animator.SetBool("IsAttacking", false);
         }
     }
+    void CreateProjectileParent()
+    {
+        projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
+    }
 
     public void Fire()
     {
-        Instantiate(projectile, gun.transform.position, transform.rotation);
+        Instantiate(projectile, gun.transform.position, transform.rotation, projectileParent.transform);
     }
 
     void SetLaneSpawner()
