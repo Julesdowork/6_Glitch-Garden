@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     [SerializeField] GameObject winLabel;
+    [SerializeField] GameObject loseLabel;
     [SerializeField] float waitToLoad = 4f;
     int numAttackers = 0;
     bool levelTimerFinished = false;
@@ -12,6 +13,7 @@ public class LevelController : MonoBehaviour
     void Start()
     {
         winLabel.SetActive(false);
+        loseLabel.SetActive(false);
     }
 
     public void AttackerSpawned()
@@ -35,6 +37,12 @@ public class LevelController : MonoBehaviour
         winLabel.SetActive(true);
         yield return new WaitForSeconds(waitToLoad);
         GetComponent<LevelLoader>().LoadNextScene();
+    }
+
+    public void HandleLoseCondition()
+    {
+        loseLabel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void LevelTimerFinished()
