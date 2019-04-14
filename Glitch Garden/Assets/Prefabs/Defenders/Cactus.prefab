@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69e50eca5ed847418470796c1bd4b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   deathFX: {fileID: 0}
 --- !u!1 &2100863289629225658
 GameObject:
